@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome</title>   
+
+
+<style type="text/css">
+body {
+    background-image: url("loginback.png");
+    background-color: #cccccc;
+}
+</style>
+</head>
+
+<body >
+ <form name="loginform" action="Profile" method="get">
+ 
+ <div class=login>
+ <br><br>
+Enter ur fname <input type="text" name="Fname" placeholder="USERNAME"><br><br>
+ Enter ur mname<input type="text" name="Mname" placeholder="Mname"><br><br>
+ Enter ur Lmane <input type="text" name="Lname" placeholder="Lname"><br><br>
+  Enter ur phone no.<input type="text" name="phone" placeholder="phone"><br><br>
+  Enter ur email<input type="text" name="email" placeholder="email"><br><br>
+  Enter ur address<input type="text" name="address" placeholder="address"><br><br>
+  
+    Enter sports<input type="text" list="sports" name="link"><br><br>
+  <datalist id="sports">
+    <option label="cricket" value="cricket">
+    <option label="football" value="football">
+
+  </datalist>
+  
+  <input type="submit"  value="LOGIN"> 
+  <input type="reset">
+ </div>
+ 
+ </form>
+</body>
+</html>
